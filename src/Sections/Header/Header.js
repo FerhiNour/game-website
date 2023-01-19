@@ -1,10 +1,11 @@
 import React from 'react'
 import'./Header.css'
 import logo from '../../assets/images/logo.png'
+import NavItem, {NavItemDropDown} from '../../components/NavItem/NavItem'
 
 const Header = () => {
   return (
-    <div className="navbar navbar-expand-md bg-dark navbar-dark text-white fixed-top">
+    <div className="navbar navbar-expand-md navbar-dark cyborg-navbar">
     <div className="container">
         <a href="#" className="navbar-brand">
             <img src={logo} alt=''/>
@@ -19,8 +20,8 @@ const Header = () => {
                 <li className="nav-item dropdown">
                     <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Details</a>
                     <ul className="dropdown-menu">
-                        <li><a href="#learn" className="dropdown-item">Learn Bootstrap</a></li>
-                        <li><a href="#next" className="dropdown-item">Where to go next</a></li>
+                        <li><a href="#learn" className="dropdown-item">Fortnite</a></li>
+                        <li><a href="#next" className="dropdown-item">Call Of Duty</a></li>
                     </ul>
                 </li>
                 <li className="nav-item"><a href="#faq" className="nav-link">Streams</a></li>

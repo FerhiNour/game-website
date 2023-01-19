@@ -1,3 +1,5 @@
-export {default as Header} from './Header/Header'
 export {default as Container} from './Container/Container'
-export {default as Footer} from './Footer/Footer'
+export {default as NavItem} from './NavItem/NavItem'
+export {default as Card} from './Card/Card'
+export {default as SectionHeader} from './SectionHeader/SectionHeader'
+export {NavItemDropDown} from './NavItem/NavItem'
